@@ -1,0 +1,23 @@
+<form (NgSubmit)="funcionarios(f)" #f="ngForm">
+    
+    <div>
+        <label for="nomeFunc">Nome:</label>
+        <input type="text" id="nomeFunc" name="nomeFunc" ngModel required>
+    </div>
+        <label for="cpfFunc">Telefone:</label>
+        <input type="text" id="cpf" name="cpfFunc" ngModel required>
+    <div>
+
+    </div>
+        <label for="enderecoFunc">Endereco:</label>
+        <input type="text" id="enderecoFunc" name="enderecoFunc" ngModel required>
+    <div>
+
+    </div>
+        <label for="salFunc">Salario:</label>
+        <input type="text" id="salFunc" name="salFunc" ngModel required>
+    <div>    
+        <button class="btn btn-primary" type="submit" value="Enviar" [disabled]="f.form.invalid">Enviar</button>
+    </div>
+    
+</form>>
