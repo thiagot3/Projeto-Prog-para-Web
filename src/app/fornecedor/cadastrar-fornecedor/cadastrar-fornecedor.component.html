@@ -1,0 +1,25 @@
+<form (NgSubmit)="fornecedor(f)" #f="ngForm">
+    
+    <div>
+        <label for="nomeFornecedor">Nome:</label>
+        <input type="text" id="nomeFornecedor" name="nomeFornecedor" ngModel required>
+    </div>
+        <label for="cnpjFornecedor">CPF:</label>
+        <input type="text" id="cnpjFornecedor" name="cnpjFornecedor" ngModel required>
+    <div>
+
+    </div>
+        <label for="enderecoFornecedor">Endereco:</label>
+        <input type="text" id="enderecoFornecedor" name="enderecoFornecedor" ngModel required>
+    </div>
+
+    <div>
+        <label for="produto">Produto:</label>
+        <input type="text" id="produto" name="produto" ngModel required>
+    </div>
+    
+    <div>    
+        <button class="btn btn-primary" type="submit" value="Enviar" [disabled]="f.form.invalid">Enviar</button>
+    </div>
+    
+</form>>
