@@ -17,12 +17,12 @@ export class CadastrarFornecedorComponent implements OnInit {
     const infoFornecedor = {
       nome : [form.value.nomeFunc],
       cpnj : [form.value.cpnjFornecedor],
-      endereco : [form.value.endereco],
+      endereco : [form.value.enderecoFornecedor],
       Produto : [form.value.produto]};
 
     console.log(infoFornecedor); }
-  /* public salvarBD(infoFornecedor){
-INSERT INTO fornecedor(nome_BD, cnpj_BD, endereco_BD, produto_BD)
-  }
-*/
+  // tslint:disable-next-line:typedef
+  salvarBD(infoFornecedor){/*
+INSERT INTO fornecedor(infoFornecedor)
+  */}
 }
