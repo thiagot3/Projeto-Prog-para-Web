@@ -18,7 +18,7 @@ export class CadastrarFornecedorComponent implements OnInit {
       nome : [form.value.nomeFunc],
       cpnj : [form.value.cpnjFornecedor],
       endereco : [form.value.enderecoFornecedor],
-      Produto : [form.value.produto]};
+      produto : [form.value.produto]};
 
     console.log(infoFornecedor); }
   // tslint:disable-next-line:typedef

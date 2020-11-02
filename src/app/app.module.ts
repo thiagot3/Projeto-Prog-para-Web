@@ -16,7 +16,6 @@ import { ListaFornecedorComponent } from './fornecedor/lista-fornecedor/lista-fo
 import { ListaClienteComponent } from './cliente/lista-cliente/lista-cliente.component';
 import { ExcluirClienteComponent } from './cliente/excluir-cliente/excluir-cliente.component';
 import { ExcluirFornecedorComponent } from './fornecedor/excluir-fornecedor/excluir-fornecedor.component';
-import { ExcluirFornecedorrComponent } from './fornecedor/excluir-fornecedorr/excluir-fornecedorr.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +32,7 @@ import { ExcluirFornecedorrComponent } from './fornecedor/excluir-fornecedorr/ex
     ListaClienteComponent,
     ExcluirClienteComponent,
     ExcluirFornecedorComponent,
-    ExcluirFornecedorrComponent
+
   ],
   imports: [
     BrowserModule,

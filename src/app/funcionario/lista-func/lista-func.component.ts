@@ -16,16 +16,11 @@ listarFuncionario(){
   /* "Função para futuramente puxar dados do BD"
   const dadosbd = SELECT * FROM  funcionario
 
-return dadosbd;*/}
-
-// tslint:disable-next-line:typedef
-getBD(dadosBD){/*
-
   const nome = nomeBD
   const cpf = cpf_BD
   const endereco = endereco_BD
   const salFunc = sal_BD
 
-  return getBD*/}
+  return listarFuncionarios*/}
 
 }

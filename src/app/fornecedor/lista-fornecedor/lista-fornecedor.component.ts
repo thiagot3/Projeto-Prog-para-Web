@@ -12,19 +12,14 @@ export class ListaFornecedorComponent implements OnInit {
   ngOnInit(): void {
   }
   // tslint:disable-next-line:typedef
-  listarFuncionario(){
+  listarFornecedor(){
     /* "Função para futuramente puxar dados do BD"
     const dadosbd = SELECT * FROM  funcionario
-
-    return dadosBD;*/}
-
-  // tslint:disable-next-line:typedef
-  getBD(dadosBD){/*
 
     const nome = nome_BD
     const cnpj = cnpj_BD
     const endereco = endereco_BD
     const produto = produto_BD
 
-  return getBD*/}
+  return listar Fornecedor*/}
 }

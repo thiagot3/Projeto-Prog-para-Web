@@ -13,7 +13,7 @@ export class ExcluirFornecedorComponent implements OnInit {
   ngOnInit(): void {
   }
   // tslint:disable-next-line:typedef
-  excluirFornecedor(form: NgForm){
+  excluirForn(form: NgForm){
     const cpfForn = [form.value.cnpjForn];
       /*const excluir = 'DELETE FROM fornecedor WHERE cpf = ', cpfForn */
     }

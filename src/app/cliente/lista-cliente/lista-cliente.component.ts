@@ -15,11 +15,6 @@ export class ListaClienteComponent implements OnInit {
 listarCliente(){
   /* "Função para futuramente puxar dados do BD"
   const dadosbd = SELECT * FROM  clientte
-  return dadosBD;*/}
-
-
-// tslint:disable-next-line:typedef
-getBD(dadosBD){/*
 
   const nome = nome_BD
   const cpf = cpf_BD

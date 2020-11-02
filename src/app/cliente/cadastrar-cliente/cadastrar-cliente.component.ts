@@ -13,7 +13,7 @@ export class CadastrarClienteComponent implements OnInit {
   ngOnInit(): void {
   }
   // tslint:disable-next-line:typedef
-  fornecedor(form: NgForm){
+  cliente(form: NgForm){
     const infoCliente = {
       nome : [form.value.nomeCliente],
       cpnj : [form.value.cpfCliente],
