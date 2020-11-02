@@ -11,14 +11,21 @@ export class ListaFuncComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  // tslint:disable-next-line:typedef
+listarFuncionario(){
+  /* "Função para futuramente puxar dados do BD"
+  const dadosbd = SELECT * FROM  funcionario
 
-/* getBD(){
+return dadosbd;*/}
+
+// tslint:disable-next-line:typedef
+getBD(dadosBD){/*
 
   const nome = nomeBD
   const cpf = cpf_BD
   const endereco = endereco_BD
   const salFunc = sal_BD
 
-  }*/
+  return getBD*/}
 
 }

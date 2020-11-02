@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { NgForm } from '@angular/forms';
 
 @Component({
   selector: 'app-cadastrar-cliente',
@@ -11,5 +12,16 @@ export class CadastrarClienteComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  // tslint:disable-next-line:typedef
+  fornecedor(form: NgForm){
+    const infoCliente = {
+      nome : [form.value.nomeCliente],
+      cpnj : [form.value.cpfCliente],
+      endereco : [form.value.enderecoCliente]};
 
+    console.log(infoCliente); }
+  // tslint:disable-next-line:typedef
+  salvarBD(infoCliente){/*
+INSERT INTO cliente(infoCliente)
+  */}
 }

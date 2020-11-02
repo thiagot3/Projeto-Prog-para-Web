@@ -1,1 +1,8 @@
-<p>excluir-func works!</p>
+<div>
+    <h1>Excluir Funcionário</h1>
+
+    <form (NgSubmit)="excluirFunc(f)" #f="ngForm">
+        <label>Digite o CPF do Funcionário</label>
+        <input type="text" id="cpfFunc" name="cpfFunc" ngModel required>
+    </form>
+</div>

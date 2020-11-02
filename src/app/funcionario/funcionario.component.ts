@@ -10,11 +10,6 @@ export class FuncionarioComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-  }
-  // tslint:disable-next-line:typedef
-  listarFuncionario(){
-      // Função para futuramente puxar dados do BD//
 
-  // return dadosbd;//
   }
 }

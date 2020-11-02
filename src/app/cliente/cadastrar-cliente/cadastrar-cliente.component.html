@@ -1,1 +1,20 @@
-<p>cadastrar-cliente works!</p>
+<form (NgSubmit)="Cliente(f)" #f="ngForm">
+    
+    <div>
+        <label for="nomeCliente">Nome:</label>
+        <input type="text" id="nomeCliente" name="nomeCliente" ngModel required>
+    </div>
+        <label for="cpfCliente">CPF:</label>
+        <input type="text" id="cpfCliente" name="cpfCliente" ngModel required>
+    <div>
+
+    </div>
+        <label for="enderecoCliente">Endereco:</label>
+    </div>    <input type="text" id="enderecoCliente" name="enderecoCliente" ngModel required>
+    
+    <div>    
+        <button class="btn btn-primary" type="submit" value="Enviar" [disabled]="f.form.invalid">Enviar</button>
+    </div>
+    
+</form>>
+

@@ -22,6 +22,9 @@ export class CadastroFuncionarioComponent implements OnInit {
       salario : [form.value.salFunc]};
 
     console.log(infoFuncionario); }
-  // public salvarBD(infoFuncionario){}
+// tslint:disable-next-line:typedef
+salvarBD(infoFuncionario){
+/* INSERT INTO funcionario (infoFuncionario)*/
+}
 }
 
