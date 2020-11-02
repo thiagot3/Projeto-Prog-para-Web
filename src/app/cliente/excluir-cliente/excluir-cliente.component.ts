@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { NgForm } from '@angular/forms';
 
 @Component({
   selector: 'app-excluir-cliente',
@@ -11,5 +12,10 @@ export class ExcluirClienteComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  // tslint:disable-next-line:typedef
+  excluirCliente(form: NgForm){
+    const cpfCliente = [form.value.cpfFunc];
 
+      /*const excluir = 'DELETE FROM fornecedor WHERE cpf = ', cpfCliente */
+    }
 }
